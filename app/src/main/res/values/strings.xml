@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">MAD_Project_Ram</string>
+    <string name="textview">TextView</string>
+    <string name="hello_world">Hello world</string>
+    <string name="btn_ManageBook">Manage Book</string>
+    <string name="btn_ManageMovies">"Manage Movies "</string>
+    <string name="btn_ManageTV">Manage TV Shows</string>
+    <string name="btn_AddBook">Add Book</string>
+    <string name="btn_UpdateBook">Update/ Delete Book</string>
+    <string name="txt_BkTitle">Title</string>
+    <string name="txt_BKAuthor">Author</string>
+    <string name="txt_BkISBN">ISBN</string>
+    <string name="txt_BkDescrp">"Description "</string>
+    <string name="txt_BkDescrpt">Description</string>
+    <string name="textView3">Title</string>
+    <string name="textView_Book">Title</string>
+    <string name="textView2">Title</string>
+    <string name="textView6">Author</string>
+    <string name="textView7">ISBN</string>
+    <string name="textVie">"Description "</string>
+    <string name="textView">"Description "</string>
+    <string name="txt">Description</string>
+    <string name="btn_1">Cancel</string>
+    <string name="btn2">Update </string>
+    <string name="manage_books">Manage Books</string>
+</resources>

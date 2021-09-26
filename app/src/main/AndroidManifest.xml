@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mad_project_ram" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MAD_Project_Ram" >
+        <activity
+            android:name=".viewtv"
+            android:exported="true"
+            android:label="Update/ Delete TV Show"/>
+        <activity
+            android:name=".Registration_form"
+            android:exported="true" />
+        <activity
+            android:name=".MmanageTV"
+            android:exported="true"
+            android:label="Manage TV Shows" />
+        <activity
+            android:name=".ManageMovies"
+            android:exported="true"
+            android:label="Manage Movies" />
+        <activity
+            android:name=".Edit_TV"
+            android:exported="true"
+            android:label="Edit TV Show" />
+        <activity
+            android:name=".EditMovie"
+            android:exported="true"
+            android:label="Edit Movies" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ViewMovies"
+            android:exported="true"
+            android:label="Update/ Delete Movie" />
+        <activity
+            android:name=".ViewBooks"
+            android:exported="true"
+            android:label="Update/ Delete Book" />
+        <activity
+            android:name=".EditBook"
+            android:exported="true"
+            android:label="Edit Book" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ManageBooks"
+            android:exported="true"
+            android:label="Manage Books" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="Admin Panel" />
+    </application>
+
+</manifest>
